@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Name Attribute on Checkbox Uncheck</title>
+</head>
+<body>
+    <label for="checkbox1">Checkbox 1:</label>
+    <input type="checkbox" class="myCheckbox" name="checkboxName1">
+    <br>
+    <label for="checkbox2">Checkbox 2:</label>
+    <input type="checkbox" class="myCheckbox" name="checkboxName2">
+    <!-- Add more checkboxes as needed -->
+
+    <script>
+        const checkboxes = document.getElementsByClassName('myCheckbox');
+        
+        for (let i = 0; i < checkboxes.length; i++) {
+            const checkbox = checkboxes[i];
+            
+            checkbox.addEventListener('change', function () {
+                if (!checkbox.checked) {
+                    checkbox.removeAttribute('name');
+                }
+                
+                console.log(`Name attribute: ${checkbox.getAttribute('name')}`);
+            });
+        }
+    </script>
+</body>
+</html>
