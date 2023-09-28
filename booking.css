@@ -1,0 +1,105 @@
+#title__check {
+    font-family: poppins;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: var(--blue-1);
+    margin: 5rem;
+    text-align: center;
+}
+
+#title__check__sub {
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--black-1);
+    margin: 1.9rem;
+    text-decoration: underline;
+}
+.cont {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1.8rem;
+    font-family: Poppins;
+    color: #5c4d4d ;
+}
+
+/* Hide the browser's default checkbox */
+.cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.cont:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cont input:checked~.checkmark {
+    background-color: var(--blue-2);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.cont input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.cont .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 768px){
+    #title__check {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+    
+    #title__check__sub {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--black-1);
+        margin: 1.8rem;
+        text-decoration: underline;
+    }
+
+    .cont {
+        font-size: 17px;
+    }
+}

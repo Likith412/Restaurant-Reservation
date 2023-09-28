@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | German Slice</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./globalStyles.css">
+    <link rel="stylesheet" href="./components.css">
+    <!-- Animate and scroll library(aos) css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./menu.css">
+</head>
+
+<body>
+    <!-- Nav Section -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.svg" alt="German Slice" class="nav__logo">
+                </a>
+                <nav>
+                    <div class="nav__icon"> <!-- menu icon using feather -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav__bgOverlay"></div>
+                    <ul class="nav__list">
+                        <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class="nav__link">Home</a></li>
+                            <li><a href="./menu.html" class="nav__link">Menu</a></li>
+                            <li><a href="./about.html" class="nav__link">About</a></li>
+                            <li><a href="./contact.html" class="nav__link">Contact</a></li>
+                            <li><a href="./booking.html" class="btn primary-btn">Book Table</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Section -->
+    <!-- Page Title -->
+    <section id="page__title">
+        <div class="container">
+            <h2 class="page__title__text">
+                Explore Our Menu
+            </h2>
+        </div>
+    </section>
+    <!-- End of Page Title  -->
+    <!-- German Specials section -->
+    <section class="FoodMenu" data-aos="fade-up">
+        <div class="container">
+            <h3 class="dishGrid__title">German Specials</h3>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-3.png" alt="food">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Sweet Potato Fries Bowl
+                        </h3>
+                        <h4 class="dishGrid__item__price"><strike>₹750</strike> ₹525</h4>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Curry-Wrust.png" alt="food">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Curry Wurst
+                        </h3>
+                        <h4 class="dishGrid__item__price"><strike>₹750</strike> ₹525</h4>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Kartoffelpuffer (Potato Pancakes).jpg" alt="food">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Kartoffelpuffer
+                        </h3>
+                        <h4 class="dishGrid__item__price"><strike>₹750</strike> ₹525</h4>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Schnitzel (Breaded Cutlet).jpg" alt="food">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Schnitzel
+                        </h3>
+                        <h4 class="dishGrid__item__price"> <strike>₹750</strike> ₹525</h4>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/maultaschen.jpg" alt="food">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Maultaschen
+                        </h3>
+                        <h4 class="dishGrid__item__price"><strike>₹750</strike> ₹525</h4>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of German Specials section -->
+    <!-- veg Starters Section -->
+    <section class="FoodMenu" data-aos="fade-down">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Veg Starters
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/GobiManchurian.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Gobi Manchurian
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹110</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Gobi65.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Gobi 65
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹100</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/paneer-manchurian.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Paneer Manchurian
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹140</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/paneer-schezwan.jpeg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Paneer Schezwan
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹150</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chilli-mashroon.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chilli Mushroom
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹130</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/baby 65.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Baby Corn 65
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹120</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of veg Starters Section -->
+    <!-- Non-veg Starters Section -->
+    <section class="FoodMenu" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Non-Veg Starters
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken-wings.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Wings (7pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹180</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken-lollipop.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Lollipop (6pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹200</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken 65.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken 65
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹180</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/fish 65.jpeg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Fish 65 (3pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹190</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/prawns 65.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Prawns 65
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹130</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/spicy-mutton-chops.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Spicy Mutton Chops (4pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹220</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Non-veg Starters Section -->
+    <!-- Biryani Section -->
+    <section class="FoodMenu" data-aos="fade-down">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Biryani
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/biryani.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Hydrabadi Chicken Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹220</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken-fry-piece-biryani.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Fry Piece Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹180</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken-pot-biryani.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Pot Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹240</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/mutton-biryani.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Mutton Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹320</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/fish-biryani.jpeg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Fish Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹190</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/prawns biryani.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Prawns Biryani
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹190</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of Biryani Section -->
+    <!-- Breads Section -->
+    <section class="FoodMenu" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Breads
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/butter-nan.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Butter Nan (2pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹80</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/pulka.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Pulka (3pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹75</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/roti.jpeg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Roti (2pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹80</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/parotta.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Parotta (2pcs)
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹90</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Breads Section -->
+    <!-- Veg Curries Section -->
+    <section class="FoodMenu" data-aos="fade-down">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Veg Curries
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Mushroom-Masala-Curry.png" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Mushroom Masala Curry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹250</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Paneer-ButterMasala.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Paneer Butter Masala
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹200</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Meal-Maker Curry.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Meal Maker Curry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹170</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/palak-paneer.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Palak Paneer
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹210</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Matar-paneer.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Matar paneer
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹180</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Veg Curries Section -->
+    <!-- Non-Veg Curries Section -->
+    <section class="FoodMenu" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Non-Veg Curries
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/spicy-chicken-drumstic-curry.png" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Spicy Chicken Drumstic Curry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹250</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/butter-chicken.avif" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Butter Chicken
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹220</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/chicken-maghulai.jpeg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Maghulai
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹240</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Chicken-Patiala.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chicken Patiala
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹250</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Mutton-curry.webp" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Mutton Curry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹320</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/prawns-curry.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Prawns Curry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹200</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Non-veg Curries Section -->
+    <!-- Ice Creams Section -->
+    <section class="FoodMenu" data-aos="fade-down">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Ice Creams
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Butterscotch Icream.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            ButterScotch
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹120</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/Chocolate-icecream.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chocolate
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹120</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/vanilla.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Vanilla
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹110</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/strawberry.jpg" alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            StrawBerry
+                        </h3>
+                        <h3 class="dishGrid__item__price">₹110</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/4star.png" alt="4star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Ice Creams Section -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                    <div class="footer__logo">
+                        <img src="./images/logo.svg" alt="German Slice">
+                    </div>
+                    <p class="footer_desc">
+                        Fresh and Delicious Indian and German food to delight the whole family.
+                    </p>
+                    <div class="footer__socials">
+                        <h4 class="footer__socials__title">Follow us</h4>
+                        <ul>
+                            <li>
+                                <a href="#"> <!-- add facebook link here -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <!-- add insta link here -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <!-- add twitter link here -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title">
+                        Links
+                    </h3>
+                    <ul class="footer__text">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="./booking.html">Book Table</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text__title">
+                        Support
+                    </h3>
+                    <ul class="footer__text">
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center </a>
+                        </li>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__text">
+                        <li>
+                            <a href="tel:+918247469660">+91 8247469660</a>
+                        </li>
+                        <li>
+                            <a href="mailto: xyz@gmail.com ">xyz@gmail.com</a> <!-- add email here -->
+                        </li>
+                        <li>
+                            <a href="#">JP nagar, 2nd phase, Bengaluru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright__text">
+                © copyright 2023 German Slice | All rights reserved
+            </p>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- custom script -->
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
