@@ -7,7 +7,7 @@ submit.addEventListener('click',()=>{
 
                    console.log(checkbox.name)
                }
-            if (!(checkbox.checked)) {
+            else {
                 checkbox.removeAttribute('name');
             }
     }
